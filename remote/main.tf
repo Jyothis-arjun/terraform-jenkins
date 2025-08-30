@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform-bucket" {
-  bucket = "my-ss-bucket-1995-90-80-81"
+  bucket = "my-ss-bucket-1995-90-80-8458-2548"
 }
 
 resource "aws_s3_bucket_versioning" "versioning_bucket" {
