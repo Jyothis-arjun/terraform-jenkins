@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "terraform-instance-1" {
-  ami           = "ami-00bb6a80f01f03502"
+  ami           = "ami-0861f4e788f5069dd"
   instance_type = "t2.micro"
-  key_name      = "Devops-Dec"
+  key_name      = "demo-2025"
   tags = {
     Name  = "ss-instance-1"
     appid = "345"
