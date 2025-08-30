@@ -1,7 +1,7 @@
 variable "my-ami" {
     description = "this the value for the AMI"
     type = string
-    default = "ami-00bb6a80f01f03502"
+    default = "ami-0861f4e788f5069dd"
   
 }
 
@@ -11,7 +11,7 @@ variable "my-instance-type" {
 }
 
 variable "my-key-value" {
-    default = "Devops-Dec"
+    default = "demo-2025"
   
 }
 
