@@ -34,7 +34,11 @@ pipeline {
                     // Iterate over each directory
                     directories.each { directory ->
                         // Execute Terraform plan in each directory
-                        sh "cd ${directory} && terraform plan -out=tfplan"
+                      sh """
+                    cd ${directory}
+                    terraform init -input=false
+                    terraform plan -input=false
+                """
                     }
                 }
             }
